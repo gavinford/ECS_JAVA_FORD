@@ -1,0 +1,13 @@
+package variables;
+
+public class yourschedule 
+{
+	public static void main(String[] args)
+	{
+		System.out.println("Ford's Class Schedule:");
+		System.out.println();
+		System.out.println();
+		System.out.println("---------------------------------------");
+	}
+
+}
