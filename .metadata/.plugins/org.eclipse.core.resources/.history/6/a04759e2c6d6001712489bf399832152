@@ -1,0 +1,9 @@
+package javapart3;
+public class keyboardinputs 
+{
+	public static void main(String[] args)
+	{
+		
+	}
+
+}
