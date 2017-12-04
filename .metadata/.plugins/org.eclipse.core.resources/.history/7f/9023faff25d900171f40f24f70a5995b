@@ -29,14 +29,5 @@ public class selectionstructures
 		{
 			System.out.println("We still can't decide.");
 		}
-		
-		
-		if(people>buses)
-		{
-			System.out.println("All right, let's just take the buses.");
-		}else
-		{
-			System.out.println("Fine, let's just stay home then.");
-		}
 	}
 }
