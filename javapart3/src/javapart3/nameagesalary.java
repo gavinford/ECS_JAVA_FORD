@@ -18,6 +18,8 @@ public class nameagesalary
 		
 		System.out.println("So you are "+age+"? I guess that's not too old, "+name+". How much do you make per hour?");
 		salaryph=keyboard.nextDouble();
+		
+		System.out.println("Wow, "+salaryph+" is a lot for your age.");
 	}
 	
 }
