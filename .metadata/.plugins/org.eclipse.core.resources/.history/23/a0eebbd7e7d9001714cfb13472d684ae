@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class spaceboxing 
+{
+	public static void main(String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		int weight;
+		
+		System.out.print("Please enter your current earth weight: ");
+		weight =keyboard.nextInt();
+		
+	}
+}
