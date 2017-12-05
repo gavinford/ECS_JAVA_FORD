@@ -46,5 +46,6 @@ public class twoquestions
 				System.out.println("Is it a PAPER CLIP?");
 			}
 		}
+		System.out.println(q1+q2);
 	}
 }

@@ -13,7 +13,6 @@ public class twoquestions
 		q1=keyboard.next();
 		System.out.println("Question 2: Is it bigger than a bread box?");
 		q2=keyboard.next();
-		
 		if(q1=="animal")
 		{
 			if(q2=="yes")
