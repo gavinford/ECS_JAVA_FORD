@@ -14,9 +14,9 @@ public class twoquestions
 		System.out.println("Question 2: Is it bigger than a bread box?");
 		q2=keyboard.next();
 		
-		if(q1=="animal")
+		if(q1.equals("animal"))
 		{
-			if(q2=="yes")
+			if(q2.equals("yes"))
 			{
 				System.out.println("Is it a MOOSE?");
 			}else
@@ -25,9 +25,9 @@ public class twoquestions
 			}
 		}
 		
-		if(q1=="vegetable")
+		if(q1.equals("vegetable"))
 		{
-			if(q2=="yes")
+			if(q2.equals("yes"))
 			{
 				System.out.println("Is it a WATERMELON?");
 			}else
@@ -36,9 +36,9 @@ public class twoquestions
 			}
 		}
 		
-		if(q1=="mineral")
+		if(q1.equals("mineral"))
 		{
-			if(q2=="yes")
+			if(q2.equals("yes"))
 			{
 				System.out.println("Is it a CAMARO?");
 			}else
