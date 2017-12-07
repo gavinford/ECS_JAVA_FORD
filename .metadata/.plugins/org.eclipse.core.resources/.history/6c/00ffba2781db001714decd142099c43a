@@ -1,5 +1,5 @@
 import java.util.Random;
-public class shorterdoubledice
+public class doubledice2 
 {
 	public static void main(String[] args)
 	{

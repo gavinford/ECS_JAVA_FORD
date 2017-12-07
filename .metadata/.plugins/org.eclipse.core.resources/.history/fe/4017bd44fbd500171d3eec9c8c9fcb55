@@ -1,9 +1,0 @@
-package variables;
-public class variablesandnames 
-{
-	public static void main(String[] algs)
-	{
-		int cars, drivers, passengers, cars_not_driven, cars_driven;
-		double space_in_a_car, carpool_capacity, average_passengers_per_car;
-	}
-}
