@@ -1,0 +1,8 @@
+import java.util.Scanner;
+public class addingvaluesforloop 
+{
+	public static void main(String[] args);
+	{
+		Scann keyboard=newkeyboard(System.in);
+	}
+}
