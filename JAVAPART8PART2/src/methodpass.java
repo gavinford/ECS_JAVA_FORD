@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class methodpass 
+{
+	public static void main(String[]args)
+	{
+		Scanner keyboard=new Scanner(System.in);
+		int num;
+		System.out.print("Pick a number: ");
+		num=keyboard.nextInt();
+		System.out.println();
+		test(num);
+	}
+	
+	public static void test(int oof)
+	{
+		if(oof%3==0)
+		{
+			System.out.println("I like that number!");
+		}else
+		{
+			System.out.println("That number is gross...");
+		}
+	}
+}
