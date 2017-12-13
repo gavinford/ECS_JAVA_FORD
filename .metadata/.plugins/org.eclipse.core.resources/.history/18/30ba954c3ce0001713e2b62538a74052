@@ -1,0 +1,46 @@
+import java.util.Scanner;
+public class areacalculator 
+{
+	public static void main(String[]args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Shape Area Calculator (c) 2017 Gavin Ford ECS");
+		System.out.println();
+		System.out.println("----------------------------------------------");
+		System.out.println();
+		System.out.println("1) Triangle");
+		System.out.println("2) Rectangle");
+		System.out.println("3) Square");
+		System.out.println("4) Circle");
+		System.out.println("5) Quit");
+		System.out.print("Which Shape:");
+		int shape=keyboard.nextInt();
+		System.out.println();
+		if(shape==1)
+		{
+			radtriangle();
+		}else if(shape==2)
+		{
+			radrect();
+		}else if(shape==3)
+		{
+			radsquare();
+		}else if(shape==4)
+		{
+			radcircle();
+		}else if(shape==5)
+		{
+			quit();
+		}else
+		{
+			System.out.println("invalid number!");
+		}
+	}
+	
+	public static void radtriangle()
+	{
+		Scanner keyboard = new Scanner(System.in);
+		System.out.print("Base:");
+		int base=keyboard.nextInt();
+	}
+}
