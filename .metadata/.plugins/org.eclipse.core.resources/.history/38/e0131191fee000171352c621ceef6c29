@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class calculator 
+{
+	public static void main(String[]args)
+	{
+		Scanner keyboard=new Scanner(System.in);
+		System.out.println("This is your calculator!");
+		System.out.println("Insert your calulation as \"### operator ###\"");
+		String num1=keyboard.next();
+		String opp=keyboard.next();
+		String num2=keyboard.next();
+		if(opp=="+")
+		{
+			add(num1, num2);
+		}else if(opp=="-")
+		{
+			subtract(num1,num2);
+		}else if(opp=="/")
+		{
+			divide(num1,num2);
+		}else if(opp=="*")
+		{
+			multiply(num1,num2);
+		}else if(opp=="^")
+		{
+			power(num1,num2);
+		}else
+		{
+			System.out.println("Unknown Operator!");
+		}
+	}
+	
+	public static int add(int number1,int number2)
+	{
+		
+		
+		return 1;
+	}
+}
