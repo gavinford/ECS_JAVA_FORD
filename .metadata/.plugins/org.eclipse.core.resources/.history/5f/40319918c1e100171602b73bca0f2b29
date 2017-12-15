@@ -6,11 +6,10 @@ public class calculator
 		Scanner keyboard=new Scanner(System.in);
 		System.out.println("This is your calculator!");
 		System.out.println("Insert your calulation as \"### operator ###\"  To end the program, enter equation '### stop ###'");
-
+		int num1=keyboard.nextInt();
 		boolean running=true;
 		while(running==true)
 		{	
-			int num1=keyboard.nextInt();
 			String opp=keyboard.next();
 			int num2=keyboard.nextInt();
 			double answer=0;
